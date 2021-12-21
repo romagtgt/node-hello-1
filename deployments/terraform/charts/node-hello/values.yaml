@@ -39,7 +39,7 @@ ingress:
     - /
 
   tls:
-  - secretName: hello-world-tls
+  - secretName: node-hello-tls
     hosts:
       - ${deployment_endpoint}
 
